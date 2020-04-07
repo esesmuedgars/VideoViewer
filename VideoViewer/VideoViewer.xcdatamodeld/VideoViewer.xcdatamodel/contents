@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19E266" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="VideoItem" representedClassName=".VideoItem" syncable="YES">
+        <attribute name="id" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="itemDescription" attributeType="String"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="thumbnailURL" attributeType="URI"/>
+        <attribute name="videoURL" attributeType="URI"/>
+    </entity>
+    <elements>
+        <element name="VideoItem" positionX="113.75390625" positionY="2979.89453125" width="128" height="118"/>
+    </elements>
+</model>
