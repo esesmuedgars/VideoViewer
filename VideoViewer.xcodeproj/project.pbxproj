@@ -37,6 +37,7 @@
 		65C2BC162437E0BD00F345CA /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C2BC152437E0BD00F345CA /* Response.swift */; };
 		65C2BC182437E11D00F345CA /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C2BC172437E11D00F345CA /* Endpoint.swift */; };
 		65DDE810243B619800DBEE85 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DDE80F243B619800DBEE85 /* Asset.swift */; };
+		65F610A6243BDFE9009539A2 /* VideoDetailsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F610A5243BDFE9009539A2 /* VideoDetailsViewModelTests.swift */; };
 		65F610A9243BE019009539A2 /* APIServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F610A8243BE019009539A2 /* APIServiceMock.swift */; };
 		65F610AB243BE05D009539A2 /* CoreDataServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F610AA243BE05D009539A2 /* CoreDataServiceMock.swift */; };
 		65F610AD243BEAF2009539A2 /* HLSServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F610AC243BEAF2009539A2 /* HLSServiceMock.swift */; };
@@ -87,6 +88,7 @@
 		65C2BC152437E0BD00F345CA /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		65C2BC172437E11D00F345CA /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		65DDE80F243B619800DBEE85 /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
+		65F610A5243BDFE9009539A2 /* VideoDetailsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailsViewModelTests.swift; sourceTree = "<group>"; };
 		65F610A8243BE019009539A2 /* APIServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceMock.swift; sourceTree = "<group>"; };
 		65F610AA243BE05D009539A2 /* CoreDataServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataServiceMock.swift; sourceTree = "<group>"; };
 		65F610AC243BEAF2009539A2 /* HLSServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLSServiceMock.swift; sourceTree = "<group>"; };
@@ -234,6 +236,7 @@
 			children = (
 				65F610A7243BDFFB009539A2 /* Dependencies */,
 				659A21F5243BB7E9002E4097 /* VideoListViewModelTests.swift */,
+				65F610A5243BDFE9009539A2 /* VideoDetailsViewModelTests.swift */,
 				656198862434D2BE006B2C15 /* Info.plist */,
 			);
 			path = VideoViewerTests;
@@ -384,6 +387,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				659A21F6243BB7E9002E4097 /* VideoListViewModelTests.swift in Sources */,
+				65F610A6243BDFE9009539A2 /* VideoDetailsViewModelTests.swift in Sources */,
 				65F610AB243BE05D009539A2 /* CoreDataServiceMock.swift in Sources */,
 				65F610AD243BEAF2009539A2 /* HLSServiceMock.swift in Sources */,
 				65F610A9243BE019009539A2 /* APIServiceMock.swift in Sources */,
