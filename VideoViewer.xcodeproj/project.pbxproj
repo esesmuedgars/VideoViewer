@@ -9,11 +9,9 @@
 /* Begin PBXBuildFile section */
 		6561986E2434D2BC006B2C15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6561986D2434D2BC006B2C15 /* AppDelegate.swift */; };
 		656198702434D2BC006B2C15 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6561986F2434D2BC006B2C15 /* SceneDelegate.swift */; };
-		656198722434D2BC006B2C15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656198712434D2BC006B2C15 /* ContentView.swift */; };
 		656198742434D2BE006B2C15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 656198732434D2BE006B2C15 /* Assets.xcassets */; };
 		656198772434D2BE006B2C15 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 656198762434D2BE006B2C15 /* Preview Assets.xcassets */; };
 		6561987A2434D2BE006B2C15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656198782434D2BE006B2C15 /* LaunchScreen.storyboard */; };
-		656198852434D2BE006B2C15 /* VideoViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656198842434D2BE006B2C15 /* VideoViewerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,13 +28,11 @@
 		6561986A2434D2BC006B2C15 /* VideoViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6561986D2434D2BC006B2C15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6561986F2434D2BC006B2C15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		656198712434D2BC006B2C15 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		656198732434D2BE006B2C15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		656198762434D2BE006B2C15 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		656198792434D2BE006B2C15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6561987B2434D2BE006B2C15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		656198802434D2BE006B2C15 /* VideoViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		656198842434D2BE006B2C15 /* VideoViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewerTests.swift; sourceTree = "<group>"; };
 		656198862434D2BE006B2C15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,7 +77,6 @@
 			children = (
 				6561986D2434D2BC006B2C15 /* AppDelegate.swift */,
 				6561986F2434D2BC006B2C15 /* SceneDelegate.swift */,
-				656198712434D2BC006B2C15 /* ContentView.swift */,
 				656198732434D2BE006B2C15 /* Assets.xcassets */,
 				656198782434D2BE006B2C15 /* LaunchScreen.storyboard */,
 				6561987B2434D2BE006B2C15 /* Info.plist */,
@@ -101,7 +96,6 @@
 		656198832434D2BE006B2C15 /* VideoViewerTests */ = {
 			isa = PBXGroup;
 			children = (
-				656198842434D2BE006B2C15 /* VideoViewerTests.swift */,
 				656198862434D2BE006B2C15 /* Info.plist */,
 			);
 			path = VideoViewerTests;
@@ -210,7 +204,6 @@
 			files = (
 				6561986E2434D2BC006B2C15 /* AppDelegate.swift in Sources */,
 				656198702434D2BC006B2C15 /* SceneDelegate.swift in Sources */,
-				656198722434D2BC006B2C15 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +211,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				656198852434D2BE006B2C15 /* VideoViewerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,11 +359,12 @@
 				DEVELOPMENT_TEAM = RB8S8SFW6F;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = VideoViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.esesmuedgars.videoviewer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.esesmuedgars.VideoViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -387,11 +380,12 @@
 				DEVELOPMENT_TEAM = RB8S8SFW6F;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = VideoViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.esesmuedgars.videoviewer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.esesmuedgars.VideoViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
