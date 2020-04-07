@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		651415C4243AB8A50068BC1B /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651415C3243AB8A50068BC1B /* Dependencies.swift */; };
 		6514CCA324390A84007F2802 /* VideoViewer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6514CCA124390A84007F2802 /* VideoViewer.xcdatamodeld */; };
 		6514CCD624391285007F2802 /* VideoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6514CCD524391285007F2802 /* VideoItem.swift */; };
 		6514CCD8243924D6007F2802 /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6514CCD7243924D6007F2802 /* CoreDataService.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		651415C3243AB8A50068BC1B /* Dependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependencies.swift; sourceTree = "<group>"; };
 		6514CCA224390A84007F2802 /* VideoViewer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VideoViewer.xcdatamodel; sourceTree = "<group>"; };
 		6514CCD524391285007F2802 /* VideoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoItem.swift; sourceTree = "<group>"; };
 		6514CCD7243924D6007F2802 /* CoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
@@ -247,6 +249,7 @@
 			files = (
 				6514CCD8243924D6007F2802 /* CoreDataService.swift in Sources */,
 				6561986E2434D2BC006B2C15 /* AppDelegate.swift in Sources */,
+				651415C4243AB8A50068BC1B /* Dependencies.swift in Sources */,
 				656198702434D2BC006B2C15 /* SceneDelegate.swift in Sources */,
 				65C2BC162437E0BD00F345CA /* Response.swift in Sources */,
 				6514CCD624391285007F2802 /* VideoItem.swift in Sources */,
