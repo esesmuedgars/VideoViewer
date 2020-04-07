@@ -11,6 +11,7 @@
 		651415C6243AC7150068BC1B /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651415C5243AC7150068BC1B /* ProgressBar.swift */; };
 		651415C8243B53120068BC1B /* PlayerControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651415C7243B53120068BC1B /* PlayerControls.swift */; };
 		651415CA243B53440068BC1B /* UIPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651415C9243B53440068BC1B /* UIPlayerView.swift */; };
+		651415D3243B553A0068BC1B /* VideoList+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651415D2243B553A0068BC1B /* VideoList+ViewModel.swift */; };
 		651415D7243B55AB0068BC1B /* AsyncImage+ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651415D6243B55AB0068BC1B /* AsyncImage+ImageLoader.swift */; };
 		6514CCA324390A84007F2802 /* VideoViewer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6514CCA124390A84007F2802 /* VideoViewer.xcdatamodeld */; };
 		6514CCD624391285007F2802 /* VideoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6514CCD524391285007F2802 /* VideoItem.swift */; };
@@ -55,6 +56,7 @@
 		651415C7243B53120068BC1B /* PlayerControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerControls.swift; sourceTree = "<group>"; };
 		651415C9243B53440068BC1B /* UIPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPlayerView.swift; sourceTree = "<group>"; };
 		651415CC243B545B0068BC1B /* VideoUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoUseCase.swift; sourceTree = "<group>"; };
+		651415D2243B553A0068BC1B /* VideoList+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VideoList+ViewModel.swift"; sourceTree = "<group>"; };
 		651415D6243B55AB0068BC1B /* AsyncImage+ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AsyncImage+ImageLoader.swift"; sourceTree = "<group>"; };
 		6514CCA224390A84007F2802 /* VideoViewer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VideoViewer.xcdatamodel; sourceTree = "<group>"; };
 		6514CCD524391285007F2802 /* VideoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoItem.swift; sourceTree = "<group>"; };
@@ -152,6 +154,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		651415D1243B55260068BC1B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				651415D2243B553A0068BC1B /* VideoList+ViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		651415D8243B55DF0068BC1B /* AsyncImage */ = {
 			isa = PBXGroup;
 			children = (
@@ -191,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				651415D0243B54F70068BC1B /* Views */,
+				651415D1243B55260068BC1B /* ViewModels */,
 				651415CE243B54790068BC1B /* Dependencies */,
 				6561986D2434D2BC006B2C15 /* AppDelegate.swift */,
 				6561986F2434D2BC006B2C15 /* SceneDelegate.swift */,
@@ -336,6 +347,7 @@
 				6514CCD8243924D6007F2802 /* CoreDataService.swift in Sources */,
 				6561986E2434D2BC006B2C15 /* AppDelegate.swift in Sources */,
 				651415CA243B53440068BC1B /* UIPlayerView.swift in Sources */,
+				651415D3243B553A0068BC1B /* VideoList+ViewModel.swift in Sources */,
 				651415D7243B55AB0068BC1B /* AsyncImage+ImageLoader.swift in Sources */,
 				65672BB9243B715F00BA0F65 /* RefreshControl.swift in Sources */,
 				651415C4243AB8A50068BC1B /* Dependencies.swift in Sources */,
