@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		651415C4243AB8A50068BC1B /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651415C3243AB8A50068BC1B /* Dependencies.swift */; };
+		651415C6243AC7150068BC1B /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651415C5243AC7150068BC1B /* ProgressBar.swift */; };
 		651415D7243B55AB0068BC1B /* AsyncImage+ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651415D6243B55AB0068BC1B /* AsyncImage+ImageLoader.swift */; };
 		6514CCA324390A84007F2802 /* VideoViewer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6514CCA124390A84007F2802 /* VideoViewer.xcdatamodeld */; };
 		6514CCD624391285007F2802 /* VideoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6514CCD524391285007F2802 /* VideoItem.swift */; };
@@ -43,6 +44,7 @@
 
 /* Begin PBXFileReference section */
 		651415C3243AB8A50068BC1B /* Dependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependencies.swift; sourceTree = "<group>"; };
+		651415C5243AC7150068BC1B /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 		651415D6243B55AB0068BC1B /* AsyncImage+ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AsyncImage+ImageLoader.swift"; sourceTree = "<group>"; };
 		6514CCA224390A84007F2802 /* VideoViewer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VideoViewer.xcdatamodel; sourceTree = "<group>"; };
 		6514CCD524391285007F2802 /* VideoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoItem.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 			children = (
 				651415D8243B55DF0068BC1B /* AsyncImage */,
 				65BA99312435219400A722B4 /* ActivityIndicator.swift */,
+				651415C5243AC7150068BC1B /* ProgressBar.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				6561986E2434D2BC006B2C15 /* AppDelegate.swift in Sources */,
 				651415D7243B55AB0068BC1B /* AsyncImage+ImageLoader.swift in Sources */,
 				651415C4243AB8A50068BC1B /* Dependencies.swift in Sources */,
+				651415C6243AC7150068BC1B /* ProgressBar.swift in Sources */,
 				656198702434D2BC006B2C15 /* SceneDelegate.swift in Sources */,
 				65BA993024351CE700A722B4 /* AsyncImage.swift in Sources */,
 				65C2BC162437E0BD00F345CA /* Response.swift in Sources */,
