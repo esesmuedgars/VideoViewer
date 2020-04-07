@@ -14,3 +14,10 @@ struct Asset: Equatable {
         static let downloadState = "AssetDownloadStateKey"
     }
 }
+
+extension Asset {
+    init(_ video: VideoUseCase) {
+        id = String(video.id)
+        url = video.videoURL
+    }
+}
